@@ -84,6 +84,9 @@ clusterGroup:
       chart: openshift-data-foundations
       targetRevision: 0.1.0
       repoURL: https://acksyn.org/files/odf-test-repo/
+      overrides:
+      - name: storageSystem.inventory.useSpecificNodes
+        value: "false"
 
     quay-registry:
       name: quay-registry
