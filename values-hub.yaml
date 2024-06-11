@@ -81,7 +81,8 @@ clusterGroup:
       name: storage
       namespace: openshift-storage
       project: opp
-      path: charts/hub/odf
+      chart: openshift-data-foundations
+      repoURL: https://acksyn.org/files/odf-test-repo/
 
     quay-registry:
       name: quay-registry
